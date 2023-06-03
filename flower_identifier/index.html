@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlossomSpot🌸</title>
+    <link rel="shortcut icon" href="img/flower.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script> 
+</head>
+
+<body align="center">
+  <nav>
+    <i class='bx bxs-right-down-arrow-circle'></i>
+    <h1 class="nav-header">BlossomSpot🌸</h1>
+  </nav>
+  
+
+  <div class="flower_image">
+      <div class="content">
+        <div class="input">
+          <form id="flower_input">
+              <label id="label_flower" for="flower">Upload the picture of the flower</label>
+              <br>
+              <div class="uploaded-image" id="uploadedImage">
+                <img src="" alt="flower image" class="flower-image">
+                <span class="flower-image-default">Flower Image</span>
+              </div>
+            </form>
+            <div class="input-container">
+              <label class="button-inside" for="input_flower">Choose File</label>
+              <input  id="input_flower" type="file" multiple id="inpFile"  onchange="displayImage()"/>
+              <button type="button" class="upload-button" onclick="sendIdentification()"> Identify  </button>
+              <br> 
+           </div>
+        </div>
+      </div>
+      <div class="table-container">
+        <table border="" align="center">
+          <tr>
+            <th>Scientific name</th>
+            <th>Common name</th>
+            <th>Family</th>
+            <th>Genus</th>
+            <!-- <th>Species</th> -->
+          </tr>
+          <tr id="plant_details">
+            <td id="scientific_name"> </td>
+            <td id="common_name">  </td>
+            <td id="family"> </td>
+            <td id="genus">  </td>
+            <!-- <td id="species"> here</td> -->
+          </tr>
+        </table> 
+      </div>
+  </div>
+  </body>
+
+</html>
