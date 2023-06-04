@@ -22,10 +22,11 @@ I used the plant.id API to create this web app. I generated an Api Key from the 
 * The Api key sometime may not work as in my case it did not work and I had to create another API KEY to create this. If you face any error related to json then you must generate a new api key.
 
 
+### Example:
+![Screenshot from 2023-06-04 03-20-29](https://github.com/priti200/flower_identifier/assets/117377405/10ccf997-61b7-4664-8179-a6330609e126)
 
 
-
-                                Hope You like it!!!!!!!
+                                               !!!!!!!!!!!Hope You like it!!!!!!!!!!!
 
 
 
